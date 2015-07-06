@@ -1,5 +1,5 @@
 {
-  "name": "icli",
+  "name": "mh",
   "version": "1.0.7",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "icli": "index.js"
+    "mh": "index.js"
   },
   "repository": {
     "type": "git",
