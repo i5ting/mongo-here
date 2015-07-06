@@ -1,6 +1,6 @@
-# icli
+# mh
 
-icli = node-cli-template
+start mongo here 
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][ci-image]][ci-url]
@@ -10,7 +10,7 @@ icli = node-cli-template
 ## Install 
 
 ```
-[sudo] npm install icli
+[sudo] npm install -g mh
 ```
 
 ## Usage 
@@ -19,9 +19,10 @@ icli = node-cli-template
 在新建目录执行
 
 ```
-icli
+mh
 ```
-这样就可以创建一个node cli项目了
+
+它会创建tmp目录
 
 ### 测试
 执行测试代码，自动检测文件变动

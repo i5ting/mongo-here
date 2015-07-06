@@ -1,7 +1,7 @@
 {
   "name": "mh",
-  "version": "1.0.7",
-  "description": "",
+  "version": "1.0.8",
+  "description": "start mongo here",
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/i5ting/node-cli-tmpl.git"
+    "url": "https://github.com/i5ting/mh.git"
   },
-  "author": "",
+  "author": "i5ting",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/i5ting/node-cli-tmpl/issues"
+    "url": "https://github.com/i5ting/mh/issues"
   },
-  "homepage": "https://github.com/i5ting/node-cli-tmpl",
+  "homepage": "https://github.com/i5ting/mh",
   "dependencies": {
     "shelljs": "^0.4.0"
   },
