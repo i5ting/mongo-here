@@ -1,0 +1,38 @@
+{
+  "name": "icli",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": "./node_modules/.bin/gulp",
+    "mocha": "./node_modules/.bin/mocha -u bdd",
+    "cov":"./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "icli": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i5ting/node-cli-tmpl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/node-cli-tmpl/issues"
+  },
+  "homepage": "https://github.com/i5ting/node-cli-tmpl",
+  "dependencies": {
+    "shelljs": "^0.4.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coveralls": "^2.11.2",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.2",
+    "gulp-watch": "^4.2.4",
+    "istanbul": "^0.3.16",
+    "mocha": "^2.2.5"
+  }
+}
