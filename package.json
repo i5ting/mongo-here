@@ -11,7 +11,8 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "mh": "index.js"
+    "mh": "index.js",
+    "mhg": "global.js"
   },
   "repository": {
     "type": "git",
