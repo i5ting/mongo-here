@@ -4,6 +4,9 @@ mkdir -p ~/mongo/db
 mkdir -p ~/mongo/pids
 mkdir -p ~/mongo/logs
 
+# remove lock file
+[ -f ~/mongo/db/mongod.lock ] && rm -rf ~/mongo/db/mongod.lock
+
 touch ~/mongo/pids/mongodb.pid
 
 # mongod --bind_ip 192.168.1.100 --port 27017 --dbpath tmp/db --logpath tmp/logs/mongodb.log --pidfilepath tmp/pids/mongodb.pid

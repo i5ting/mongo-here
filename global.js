@@ -38,6 +38,7 @@ child_process.execFile(file_path + '/global.sh',null,{cwd:current_path},function
     if (error !== null) {
       console.log('start mongo here global exec error: ' + error);
     }else{
+      console.log(stdout)
       console.log('start mongo here global success!')
     }
 });
